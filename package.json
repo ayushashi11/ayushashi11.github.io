@@ -1,0 +1,24 @@
+{
+  "name": "ayushashi11.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "echo predeploy",
+    "deploy": "gh-pages -d .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayushashi11/ayushashi11.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayushashi11/ayushashi11.github.io/issues"
+  },
+  "homepage": "https://github.com/ayushashi11/ayushashi11.github.io#readme",
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
