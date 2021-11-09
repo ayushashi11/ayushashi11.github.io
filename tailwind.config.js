@@ -1,9 +1,14 @@
 const colors = require("tailwindcss/colors");
+const plugin = require('tailwindcss/plugin')
 module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        'xf': '784px'
+      }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -15,10 +20,15 @@ module.exports = {
       yellow: colors.amber,
       blue: colors.blue,
       orange: colors.orange,
+      green: colors.emerald
+    },
+    screens: {
+      'sm': {'max': '783px'},
+      'md': {'min': '783px'},
     }
   },
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: []
 }
