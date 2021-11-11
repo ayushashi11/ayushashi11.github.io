@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       width: {
         'xf': '784px'
+      },
+      height: {
+        'xf': '120vh'
       }
     },
     colors: {
@@ -23,8 +26,8 @@ module.exports = {
       green: colors.emerald
     },
     screens: {
-      'sm': {'max': '783px'},
-      'md': {'min': '783px'},
+      'sm': {'max': '1130px'},
+      'md': {'min': '1130px'},
     }
   },
   variants: {
