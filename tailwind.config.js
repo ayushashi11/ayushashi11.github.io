@@ -6,7 +6,8 @@ module.exports = {
   theme: {
     extend: {
       width: {
-        'xf': '784px'
+        'xf': '784px',
+        '30p': '30%' 
       },
       height: {
         'xf': '120vh'

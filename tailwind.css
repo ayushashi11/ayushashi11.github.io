@@ -6835,6 +6835,10 @@ video {
   width: 784px;
 }
 
+.w-30p {
+  width: 30%;
+}
+
 .min-w-0 {
   min-width: 0px;
 }
@@ -36645,6 +36649,10 @@ video {
     width: 784px;
   }
 
+  .sm\:w-30p {
+    width: 30%;
+  }
+
   .sm\:min-w-0 {
     min-width: 0px;
   }
@@ -66075,6 +66083,10 @@ video {
 
   .md\:w-xf {
     width: 784px;
+  }
+
+  .md\:w-30p {
+    width: 30%;
   }
 
   .md\:min-w-0 {
